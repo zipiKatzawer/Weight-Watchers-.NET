@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightWatchers", "WeightWatchers\WeightWatchers.csproj", "{3303A6B6-A6CD-4E2B-9DA2-29B19039579A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controller", "Controller", "{13401499-281C-49B0-B504-D3ED8AC60A28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{D22E99D3-3553-4DE1-B3E9-4A1DD72A4E78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{93C9D13E-8A3A-49C4-A661-2DDE3EEABDBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightWatchers.data", "WeightWatchers.data\WeightWatchers.data.csproj", "{2E3A15A7-BEA5-43D7-944E-B4996CDB3302}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightWatchers.core", "WeightWatchers.core\WeightWatchers.core.csproj", "{F51F0F8C-B78E-412D-B35D-FEBE9965DAC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightWatchers.Services", "WeightWatchers.Services\WeightWatchers.Services.csproj", "{AD0D0E62-7FA8-403F-8CC2-36DBA3B3AB2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightWatchers.DAL", "WeightWatchers.DAL\WeightWatchers.DAL.csproj", "{1045506E-CD7D-401D-9B7C-ADBF001AB330}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3303A6B6-A6CD-4E2B-9DA2-29B19039579A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3303A6B6-A6CD-4E2B-9DA2-29B19039579A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3303A6B6-A6CD-4E2B-9DA2-29B19039579A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3303A6B6-A6CD-4E2B-9DA2-29B19039579A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E3A15A7-BEA5-43D7-944E-B4996CDB3302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E3A15A7-BEA5-43D7-944E-B4996CDB3302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E3A15A7-BEA5-43D7-944E-B4996CDB3302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E3A15A7-BEA5-43D7-944E-B4996CDB3302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F51F0F8C-B78E-412D-B35D-FEBE9965DAC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F51F0F8C-B78E-412D-B35D-FEBE9965DAC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F51F0F8C-B78E-412D-B35D-FEBE9965DAC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F51F0F8C-B78E-412D-B35D-FEBE9965DAC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD0D0E62-7FA8-403F-8CC2-36DBA3B3AB2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0D0E62-7FA8-403F-8CC2-36DBA3B3AB2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0D0E62-7FA8-403F-8CC2-36DBA3B3AB2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD0D0E62-7FA8-403F-8CC2-36DBA3B3AB2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1045506E-CD7D-401D-9B7C-ADBF001AB330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1045506E-CD7D-401D-9B7C-ADBF001AB330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1045506E-CD7D-401D-9B7C-ADBF001AB330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1045506E-CD7D-401D-9B7C-ADBF001AB330}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3303A6B6-A6CD-4E2B-9DA2-29B19039579A} = {13401499-281C-49B0-B504-D3ED8AC60A28}
+		{2E3A15A7-BEA5-43D7-944E-B4996CDB3302} = {D22E99D3-3553-4DE1-B3E9-4A1DD72A4E78}
+		{F51F0F8C-B78E-412D-B35D-FEBE9965DAC6} = {D22E99D3-3553-4DE1-B3E9-4A1DD72A4E78}
+		{AD0D0E62-7FA8-403F-8CC2-36DBA3B3AB2C} = {93C9D13E-8A3A-49C4-A661-2DDE3EEABDBD}
+		{1045506E-CD7D-401D-9B7C-ADBF001AB330} = {93C9D13E-8A3A-49C4-A661-2DDE3EEABDBD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BF53C36-D314-49DD-A65E-68BD84C43693}
+	EndGlobalSection
+EndGlobal
